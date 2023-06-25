@@ -1,0 +1,579 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+/* 
+font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Heavy', sans-serif;
+font-family: 'Gilroy-Light', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy-Regular", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 2.5rem;
+}
+h2 {
+  /* font-size: 2rem; */
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 2.4rem;
+}
+p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 98vw;
+}
+.thefirst {
+  /* height: 100vh; */
+  box-sizing: border-box;
+  width: auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 3.6rem;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1.1rem;
+}
+.fourth {
+  width: 90%;
+}
+.ul1 {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-left: 3rem;
+  list-style-type: none;
+}
+.move {
+  margin-right: 1rem;
+}
+.second {
+  width: 59.5rem;
+
+  position: absolute;
+  left: 14.5rem;
+  top: 9.7rem;
+}
+.second h1 {
+  text-align: center;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+.slash {
+  position: absolute;
+  width: 10.8rem;
+  height: 1.22rem;
+  left: 24.9rem;
+}
+.firsth {
+  text-align: center;
+  width: 43rem;
+  height: 6.56rem;
+  position: relative;
+  left: 8rem;
+  margin-top: 2rem;
+}
+.fix {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 20rem;
+  width: 45rem;
+  gap: 3rem;
+  align-items: center;
+}
+#one {
+  color: #0065fe;
+}
+.third {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 33rem;
+  left: 4.3rem;
+  width: 90%;
+}
+.rectangle {
+  border: 1px solid #141414;
+  width: 40rem;
+  height: 9rem;
+  padding: 2.5rem 3.75rem 2.5rem 3.75rem;
+  border-radius: 1rem;
+  position: relative;
+  right: -1.3rem;
+  bottom: 0.3rem;
+  background-image: linear-gradient(to right, #ebf0f4, #fefef6);
+}
+.image-line > .arrow {
+  position: relative;
+  top: -2rem;
+}
+.image-line .curve-left {
+  margin-left: -0.8rem;
+}
+.image-text > p {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+#triangle {
+  position: relative;
+  left: 17rem;
+  top: -1rem;
+  z-index: -1;
+}
+.four {
+  position: relative;
+  top: 38.5rem;
+  left: 17rem;
+}
+.five {
+  position: relative;
+  top: 33.4rem;
+  z-index: -1;
+  width: 100vw;
+  right: 0.5rem;
+}
+.thesecond {
+  /* height: 100vh; */
+  box-sizing: border-box;
+  position: absolute;
+  top: 64rem;
+
+  margin-top: 0.4rem;
+  background-color: #f9fbfd;
+}
+.tsa {
+  display: flex;
+  flex-direction: row;
+  gap: 9rem;
+  align-items: center;
+  height: 10rem;
+  margin-top: -15px;
+  padding-left: 6.5rem;
+  padding-right: 4rem;
+}
+.ts2 {
+  display: flex;
+}
+.ts2a,
+.ts2b,
+.ts2c,
+.ts2d {
+  width: 9rem;
+  line-height: 1.5rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+}
+
+.bottomline {
+  margin-top: 1rem;
+}
+.tsb {
+  display: flex;
+  width: 100vw;
+  padding-top: 6rem;
+  padding-left: 3.5rem;
+  gap: 11rem;
+}
+.tsb1 {
+  flex-wrap: wrap;
+  width: 30vw;
+}
+.tsb1 > img {
+  position: relative;
+  top: 2.8rem;
+  right: 1rem;
+}
+.tsb1 > p {
+  padding: 0.6rem;
+  width: 21rem;
+}
+.tsb2 {
+  display: grid;
+  grid-template-columns: repeat(2, 20rem);
+  grid-template-rows: 1fr 1fr;
+  margin-top: 2rem;
+  grid-column-gap: 2.5rem;
+}
+.tsb21,
+.tsb22,
+.tsb23,
+.tsb24 {
+  padding: 1rem 0;
+}
+.tsb2 h2 {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+.thethird {
+  box-sizing: border-box;
+  position: absolute;
+  top: 113rem;
+  padding-top: 0rem;
+}
+.topp {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  width: 100vw;
+}
+.slash2 {
+  position: relative;
+  top: 3rem;
+  right: 18rem;
+}
+.toppp {
+  width: 34rem;
+  text-align: center;
+}
+.level3 {
+  width: 68rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: row;
+  margin: 5.9rem auto;
+}
+
+.firsta,
+.centera,
+.lasta {
+  width: 23.6rem;
+  height: 28.4 rem;
+
+  border-radius: 0.5rem;
+}
+.firsta,
+.lasta {
+  height: 28rem;
+  margin: auto;
+  z-index: -4;
+  background-color: #fff;
+  border: 0.4px solid #005ae2;
+}
+.centera {
+  background-color: #1e3448;
+}
+.firsta {
+  margin-right: -3rem;
+}
+.lasta {
+  margin-left: -3.5rem;
+  margin-right: 1rem;
+  padding-right: 1rem;
+}
+
+.fa-contents {
+  width: 70%;
+  padding: 2rem;
+}
+.la-contents {
+  width: 70%;
+  padding: 2rem;
+  padding-left: 6rem;
+}
+.plist1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.pbold {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.plist {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.ptop {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+.ca-contents {
+  width: 90%;
+  padding: 4rem 1rem;
+  color: #fff;
+}
+.ca-contents > .plist {
+  line-height: 1.5rem;
+}
+.ptop2 {
+  margin-top: 1.5rem;
+}
+.navbutton {
+  width: 8.8rem;
+  height: 2.7rem;
+  border-radius: 6rem;
+  padding: 0.75rem 1.5rem;
+}
+.button2 {
+  width: 8.8rem;
+  height: 2.7rem;
+  border-radius: 6rem;
+  padding: 0.75rem 1.5rem;
+}
+.button3 {
+  width: 10.5rem;
+  height: 3rem;
+  border-radius: 6rem;
+  padding: 0.75rem 1.5rem;
+  margin-left: 3.5rem;
+}
+.bottomm {
+  position: absolute;
+  left: 31.5rem;
+  bottom: 1rem;
+}
+
+.thefourth {
+  box-sizing: border-box;
+  height: 19rem;
+  position: absolute;
+  top: 171rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e3448;
+}
+
+#f1 {
+  height: 2.4rem;
+  width: 24.5rem;
+  border: 1px solid #3284ff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+}
+#s1 {
+  width: 12.625rem;
+  height: 3rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #3284ff;
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+}
+#ta1 {
+  width: 11.125rem;
+  height: 2rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #3284ff;
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+}
+.fform {
+  width: 26rem;
+  height: 7.9rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.floats {
+  display: flex;
+  gap: 2rem;
+}
+.button4 {
+  width: 26.5rem;
+  height: 3rem;
+  border-radius: 2rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0.75rem 0rem;
+}
+.wand {
+  position: relative;
+  left: -11rem;
+  top: 0.3rem;
+}
+.thefifth {
+  box-sizing: border-box;
+  height: auto;
+  position: absolute;
+  top: 190rem;
+  padding: 2rem 13rem;
+  line-height: 2rem;
+}
+.head5 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.slash3 {
+  padding-right: 1rem;
+  margin-top: 10px;
+}
+
+.box5 > h4 {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.thesixth {
+  box-sizing: border-box;
+  height: 18.6rem;
+  position: absolute;
+  top: 246.5rem;
+}
+.sixthh {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.button5 {
+  width: 10.5rem;
+  height: 3rem;
+  border-radius: 6rem;
+  padding: 0.75rem 1.5rem;
+}
+.theseventh {
+  box-sizing: border-box;
+  position: absolute;
+  top: 265rem;
+}
+.iconpart {
+  width: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem 0;
+}
+.footertext {
+  width: 50rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.foot1,
+.foot2,
+.foot3,
+.foot4,
+.foot5,
+.foot6,
+.foot7 {
+  padding: 2rem;
+  width: 8rem;
+}
+.gridplay {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.iconpart > img {
+  padding: 1rem;
+}
+#footer {
+  position: relative;
+  left: 70rem;
+  margin: 1.5rem;
+}
+.ul1 > li > a {
+  color: black;
+  font-family: "Gilroy-Medium", sans-serif;
+}
+#blue11 {
+  color: #0065fe;
+}
+.blue1 {
+  color: #0065fe;
+}
+.blue2 {
+  color: #005ae2;
+}
+button {
+  background-color: #0065fe;
+  color: #fff;
+}
+.button3a {
+  background-color: #fff;
+  color: #0065fe;
+}
+input::placeholder {
+  color: #3284ff;
+}
+select {
+  color: #3284ff;
+}
+.formpage > p {
+  color: #4991ff;
+}
+.formpage > b {
+  color: #3284ff;
+}
+.formpage {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.v1 {
+  position: absolute;
+  top: 9rem;
+  right: 0rem;
+}
+.v11 {
+  position: absolute;
+  top: 6rem;
+  right: 0rem;
+}
+.v2 {
+  position: absolute;
+  top: 0rem;
+  right: 72rem;
+}
+.v3 {
+  position: absolute;
+  top: 32.7rem;
+  right: -8rem;
+}
+.v4 {
+  position: absolute;
+  top: 0rem;
+  right: 91rem;
+}
+.thesixth {
+  background-color: #1e3448;
+}
+.v5 {
+  position: absolute;
+  top: 8.6rem;
+  right: 0rem;
+}
+.v51 {
+  position: absolute;
+  top: 5.6rem;
+  right: 0rem;
+}
+.v6 {
+  position: absolute;
+  top: 0rem;
+  right: 75rem;
+}
+.v7 {
+  position: absolute;
+  top: 15rem;
+  right: 78rem;
+}
+.v8 {
+  position: absolute;
+  top: 23rem;
+  right: 1rem;
+}
